@@ -60,9 +60,18 @@ div#test {
 ========================================= */
 
 body{
-  
+  font-family: 'メイリオ';
+
+}
+a{
+  color:#434343;
+  text-decoration: none;
 }
 
+a:hover{
+  color:#f6ac4d;
+  cursor: pointer;
+}
 
 /* ========================================
     header css
@@ -80,6 +89,25 @@ header{
 #header-inner{
   width: 960px;
   height: 52px;
-  background-color: red;
   margin: 0 auto;
+}
+
+h1{
+  float: left;
+}
+
+nav{
+  font-size: 18px;
+  float: right;
+  margin-top: 30px;
+}
+nav ul li{
+  float: left;
+  border-left: 1px dotted #434343;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+nav ul li:last-child{
+  border-right: 1px dotted #434343;
+  padding-right: 20px;
 }
