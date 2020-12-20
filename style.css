@@ -177,6 +177,72 @@ nav ul li:last-child{
 #top_ranking{
   width: 348px;
   height: 360px;
-  background-color: green;
   float: left;
+}
+#top_ranking h2{
+  font-weight: bold;
+  font-size: 18px;
+  background: url(img/popular_icon.png)no-repeat;
+  padding-left: 37px;
+  border-bottom:1px solid #dcdddf;
+  height: 30px;
+}
+
+#top_ranking ul li {
+  width: 348px;
+  height: 55px;
+  border-bottom:1px dotted #dcdddf;
+  margin-top: 15px;
+  padding-bottom: 14px;
+}
+#top_ranking ul li:last-child {
+  border-bottom:0;
+  padding-bottom: 0;
+}
+
+#top_ranking ul li dl dt{
+  width: 89px;
+  height: 55px;
+  float: left;
+  position: relative;
+}
+.ranking_number{
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #434343;
+  border:1px solid #fff;
+  color:#fff;
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  text-align: center;
+  line-height: 19px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#top_ranking ul li dl dd{
+  width: auto;
+  height: 55px;
+  float: left;
+  margin-left: 10px;
+}
+#top_ranking ul li dl dd h3 a{
+  font-size: 13px;
+  font-weight: bold;
+}
+.ranking_tag{
+  color:#fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0 3px;
+}
+.webdesign{
+  background-color: #f6ac4d;
+}
+.wordpress{
+  background-color: #e18c7c;
+}
+.webmarketing{
+  background-color: #acd598;
 }
