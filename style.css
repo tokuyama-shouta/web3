@@ -61,7 +61,7 @@ div#test {
 
 body{
   font-family: 'メイリオ';
-
+  background-color: #f6f6f6;
 }
 a{
   color:#434343;
@@ -110,4 +110,38 @@ nav ul li{
 nav ul li:last-child{
   border-right: 1px dotted #434343;
   padding-right: 20px;
+}
+
+
+/* ========================================
+    pickup css
+========================================= */
+
+#main_wrapper{
+  width: 960px;
+  height: auto;
+  margin: 30px auto 0 auto;
+}
+
+#top_pickup{
+  width: 582px;
+  height: 360px;
+  background-color: orange;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+
+
+/* ========================================
+    ranking css
+========================================= */
+
+#top_ranking{
+  width: 348px;
+  height: 360px;
+  background-color: green;
+  float: left;
 }
