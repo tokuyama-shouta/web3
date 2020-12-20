@@ -124,11 +124,46 @@ nav ul li:last-child{
 }
 
 #top_pickup{
-  width: 582px;
-  height: 360px;
-  background-color: orange;
+  width: 580px;
+  height: 358px;
+  background-color: #fff;
   float: left;
   margin-right: 30px;
+  border:1px solid #dcdddf;
+}
+
+#pickup_thumb{
+  width: 580px;
+  height: 256px;
+  position: relative;
+}
+
+#pickup_tag{
+  background-color: rgba(246,172,77,0.9);
+  padding: 0 10px;
+  font-size: 14px;
+  color:#fff;
+  width: auto;
+  height: 32px;
+  line-height: 32px;
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+#top_pickup dl {
+  padding: 15px 20px;
+}
+
+#top_pickup dl dt a{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#top_pickup dl dd {
+  font-size: 12px;
+  font-weight: bold;
+  color:#dcdddf;
 }
 
 
