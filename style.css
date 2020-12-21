@@ -246,3 +246,31 @@ nav ul li:last-child{
 .webmarketing{
   background-color: #acd598;
 }
+
+/* ========================================
+    レフトcss
+========================================= */
+
+#top_left{
+  width: 280px;
+  height: 280px;
+  background-color: red;
+  float: left;
+  margin-top: 30px;
+}
+
+
+
+
+
+/* ========================================
+    ライト css
+========================================= */
+
+#top_right{
+  width: 650px;
+  height: 650px;
+  background-color: yellow;
+  float: right;
+  margin-top: 30px;
+}
