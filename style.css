@@ -304,7 +304,7 @@ nav ul li:last-child{
   background: url(img/new_icon.png) no-repeat left 5px;
   padding-left: 30px;
 }
-#top_right ul li {
+#top_right ul#post_list li {
   width: 650px;
   height: 152px;
   background-color: #fff;
@@ -312,7 +312,7 @@ nav ul li:last-child{
   margin-bottom: 30px;
 }
 
-#top_right ul li dl dt{
+#top_right ul#post_list li dl dt{
   width: 247px;
   height: 152px;
   float: left;
@@ -363,4 +363,25 @@ nav ul li:last-child{
 #top_right p a {
   color: #f6ac4d;
   text-decoration: underline;
+}
+
+#pagination{
+  float: right;
+  width: auto;
+  height: 34px;
+}
+#pagination ul li{
+  background-color: #fff;
+  width: auto;
+  height: 32px;
+  border:1px solid #dcdddf;
+  float: left;
+  margin-left: 10px;
+}
+#pagination ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 0 8px;
+  display: block;
 }
