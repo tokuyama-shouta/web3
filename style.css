@@ -304,3 +304,63 @@ nav ul li:last-child{
   background: url(img/new_icon.png) no-repeat left 5px;
   padding-left: 30px;
 }
+#top_right ul li {
+  width: 650px;
+  height: 152px;
+  background-color: #fff;
+  border:1px solid #dcdddf;
+  margin-bottom: 30px;
+}
+
+#top_right ul li dl dt{
+  width: 247px;
+  height: 152px;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+.new_category_tag{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 34px;
+  background-color: rgba(246,172,77,0.9);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  color:#fff;
+  line-height: 34px;
+}
+
+#top_right ul li dl dd{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#top_right h4 a{
+  font-size: 16px;
+  font-weight: bold;
+}
+.new_date{
+  color:#dcdddf;
+  background: url(img/new_date.png) no-repeat left 2px;
+  font-size: 12px;
+  padding-left: 18px;
+}
+.new_tag{
+  color:#dcdddf;
+  background: url(img/tag.png) no-repeat left 2px;
+  font-size: 12px;
+  padding-left: 18px;
+  margin-left: 15px;
+}
+#top_right p {
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 10px;
+}
+#top_right p a {
+  color: #f6ac4d;
+  text-decoration: underline;
+}
