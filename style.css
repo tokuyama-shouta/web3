@@ -294,8 +294,13 @@ nav ul li:last-child{
 
 #top_right{
   width: 650px;
-  height: 650px;
-  background-color: yellow;
+  height: auto;
   float: right;
   margin-top: 30px;
+}
+#top_right h3{
+  font-size: 22px;
+  font-weight: bold;
+  background: url(img/new_icon.png) no-repeat left 5px;
+  padding-left: 30px;
 }
